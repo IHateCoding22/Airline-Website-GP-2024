@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.comments {
+    padding: 50px 0;
+}
+
+.comment {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.avatar {
+    width: 60px;
+    height: 60px;
+    background-color: #ccc;
+    border-radius: 50%;
+}
+
+.comment-content {
+    margin-left: 20px;
+}
+
+.comment-content h3 {
+    margin-top: 0;
+}
+
+.rating {
+    font-weight: bold;
+    color: #0071c5;
+}
+
+#review-form {
+    margin-top: 30px;
+    border-top: 2px solid #0071c5;
+    padding-top: 20px;
+}
+
+#review-form label {
+    display: block;
+    margin-bottom: 10px;
+    color: #0071c5;
+}
+
+#review-form input[type="text"],
+#review-form textarea,
+#review-form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #0071c5;
+    border-radius: 5px;
+}
+
+#review-form button {
+    background-color: #0071c5;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#review-form button:hover {
+    background-color: #00508e;
+}

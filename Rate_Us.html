@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Comments - WingTrail</title>
+    <link rel="stylesheet" href="Styles_RateUs.css">
+</head>
+<body>
+    <section class="comments">
+        <div class="container">
+            <h2>Comments</h2>
+            <div class="comment">
+                <div class="avatar"></div>
+                <div class="comment-content">
+                    <h3>John Doe</h3>
+                    <p>Please release my family</p>
+                    <span class="rating">Rating: 5/5</span>
+                </div>
+            </div>
+            <div class="comment">
+                <div class="avatar"></div>
+                <div class="comment-content">
+                    <h3>Jane Smith</h3>
+                    <p>WingTrail made booking my trip a breeze. I highly recommend it to everyone!</p>
+                    <span class="rating">Rating: 4/5</span>
+                </div>
+            </div>
+            <div class="comment">
+                <div class="avatar"></div>
+                <div class="comment-content">
+                    <h3>Michael Johnson</h3>
+                    <p>Great service and excellent customer support. Will definitely use WingTrail again!</p>
+                    <span class="rating">Rating: 5/5</span>
+                </div>
+            </div>
+
+            <h2>Write a Review</h2>
+            <form id="review-form">
+                <div>
+                    <label for="name">Your Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div>
+                    <label for="comment">Your Comment:</label>
+                    <textarea id="comment" name="comment" rows="4" required></textarea>
+                </div>
+                <div>
+                    <label for="rating">Your Rating:</label>
+                    <select id="rating" name="rating" required>
+                        <option value="">Select Rating</option>
+                        <option value="5">5 Stars</option>
+                        <option value="4">4 Stars</option>
+                        <option value="3">3 Stars</option>
+                        <option value="2">2 Stars</option>
+                        <option value="1">1 Star</option>
+                    </select>
+                </div>
+                <button type="submit">Submit Review</button>
+            </form>
+        </div>
+    </section>
+</body>
+</html>

@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.about-us {
+    background-color: #0071c5;
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.about-us h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.about-us p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+.about-us .btn {
+    display: inline-block;
+    background-color: #00508e;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.about-us .btn:hover {
+    background-color: #00375d;
+}
